@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <main style={{ flex: 1 }}>
           <Routes>
-            <Route path="/" element={<Beranda />} />
+            <Route path="/Komputer-arrum" element={<Beranda />} />
             <Route path="/jadwal" element={<Jadwal />} />
             <Route path="/modul" element={<Modul />} />
             <Route path="/absen" element={<Absen />} />
