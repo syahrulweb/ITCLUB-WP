@@ -1,0 +1,109 @@
+:root {
+  --color-primary: #1e3a8a;        /* Navy */
+  --color-primary-light: #1995AD;  /* Soft Blue / Accent */
+  --color-secondary: #64748b;      /* Slate Gray */
+  --color-bg: #f4f4f8;             /* Soft Cream Background */
+  --color-bg-dark: #1f1f1f;        /* Dark Gray Background */
+  --color-white: #ffffff;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--color-primary);
+  background-color: var(--color-bg);
+  margin: 0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--color-bg);
+}
+
+/* Logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--color-primary-light));
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card styling */
+.card {
+  padding: 2em;
+  background-color: var(--color-white);
+  box-shadow: 0 6px 18px var(--color-shadow);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Links */
+a {
+  color: var(--color-primary-light);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--color-primary);
+}
+
+/* Buttons */
+button {
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+  color: var(--color-white);
+  cursor: pointer;
+  box-shadow: 0 6px 18px var(--color-shadow);
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 10px 28px var(--color-shadow);
+}
+
+/* Text helpers */
+.read-the-docs {
+  color: var(--color-secondary);
+}
+
+/* Light/Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--color-bg-dark);
+    color: var(--color-white);
+  }
+  #root,
+  .card {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+  }
+}

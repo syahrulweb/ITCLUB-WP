@@ -1,0 +1,108 @@
+.dashboard {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.3rem;
+  color: #1e3a8a; /* navy */
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  position: relative;
+}
+
+.dashboard h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #d97706; /* emas */
+  margin: 12px auto 0;
+  border-radius: 3px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Section */
+.cardImage {
+  position: relative;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 14px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* Body Section */
+.cardBody {
+  padding: 20px;
+  text-align: center;
+}
+
+.cardBody h2 {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+  color: #1e293b;
+  font-weight: 700;
+}
+
+.cardBody p {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* Button */
+.cardBody a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(30, 58, 138, 0.25);
+}
+
+.cardBody a:hover {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(30, 58, 138, 0.35);
+}

@@ -1,0 +1,29 @@
+.footer {
+  background: linear-gradient(135deg, #1995AD, #127b93); /* gradien navy */
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-top: auto;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1); /* shadow halus di atas */
+  transition: background 0.3s ease;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #f0e68c; /* soft gold saat hover */
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background: linear-gradient(135deg, #1e3a8a, #0f172a);
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
+  }
+}
