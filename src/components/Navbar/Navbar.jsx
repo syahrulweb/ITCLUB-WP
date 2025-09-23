@@ -15,7 +15,7 @@ function Navbar() {
       <div className={styles.navbarContainer}>
         {/* Brand / Logo */}
         <div className={styles.brand}>
-          <Link to="/">Komputer Ar-rum</Link>
+          <Link to="/Komputer-arrum">Komputer Ar-rum</Link>
         </div>
 
         {/* Burger Icon */}
@@ -27,7 +27,7 @@ function Navbar() {
         <ul className={`${styles.navLinks} ${isOpen ? styles.showMenu : ""}`}>
           <li>
             <NavLink
-              to="/"
+              to="/Komputer-arrum"
               className={({ isActive }) =>
                 isActive ? styles.active : undefined
               }

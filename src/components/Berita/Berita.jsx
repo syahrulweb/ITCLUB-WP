@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Berita.module.css";
 
+
 const Berita = ({ beritaData }) => {
   return (
     <div className={styles.container}>
