@@ -5,7 +5,7 @@ import styles from "./Modul.module.css";
 const modules = [
   {
     title: "01 - Intro Pembelajaran Belajar Komputer ",
-    file: import.meta.env.BASE_URL + "/pdfs/intro_pembelajaran.pdf",
+    file: import.meta.env.BASE_URL + "/pdfs/Intro.pdf",
     image: import.meta.env.BASE_URL + "images/intro.png",
   },
   {
