@@ -5,17 +5,17 @@ import styles from "./Modul.module.css";
 const modules = [
   {
     title: "01 - Intro Pembelajaran Belajar Komputer ",
-    file: import.meta.env.BASE_URL + "/pdfs/Intro.pdf",
+    // file: import.meta.env.BASE_URL + "/pdfs/Intro.pdf",
     image: import.meta.env.BASE_URL + "images/intro.png",
   },
   {
     title: "01 - Pengenalan Komputer & Manajemen File",
-    file: import.meta.env.BASE_URL +"/pdfs/01_Fondasi_Komputer.pdf",
+    // file: import.meta.env.BASE_URL +"/pdfs/01_Fondasi_Komputer.pdf",
     image: import.meta.env.BASE_URL +  "images/per1.png",
   },
   {
     title: "02 - Pengenalan Keyboard, Mouse dan Latihan Mengetik",
-    file: import.meta.env.BASE_URL +"/pdfs/02_Fondasi_Komputer.pdf",
+    // file: import.meta.env.BASE_URL +"/pdfs/02_Fondasi_Komputer.pdf",
     image: import.meta.env.BASE_URL + "/images/per2.png",
   },
   {

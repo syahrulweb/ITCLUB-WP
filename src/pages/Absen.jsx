@@ -2,7 +2,7 @@
 import React from "react";
 
 function Absen() {
-  const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSd7QUulVu2GRkVCsZvCnhdvFMTXxZEKML6gQX9aHqTPEWe6Bw/viewform";
+  // const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSd7QUulVu2GRkVCsZvCnhdvFMTXxZEKML6gQX9aHqTPEWe6Bw/viewform";
 
   const handleAbsen = () => {
     window.open(GOOGLE_FORM_URL, "_blank"); // buka Google Form di tab baru

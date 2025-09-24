@@ -49,6 +49,7 @@ const kelompokData = {
     { nama: "Siti Salma Aulia", kelas: 10 },
     { nama: "Sri Damayanti", kelas: 10 },
     { nama: "Aulia Putri Nurhaq", kelas: 10 },
+    { nama: "Mutya", kelas: 10 },
   ],
   "Kelompok 4": [
     { nama: "Siti Rohila", kelas: 11 },
@@ -61,7 +62,9 @@ const kelompokData = {
     { nama: "Dewi NurAsiyah Jamil", kelas: 11 },
     { nama: "M. Zindan", kelas: 11 },
     { nama: "Siti Riska Wati", kelas: 11 },
-    { nama: "Reni Andyani", kelas: 12 },
+    { nama: "Putri Elisa", kelas: 11 },
+    { nama: "Naysila Indriyani", kelas: 11 },
+    
   ],
   "Kelompok 5": [
     { nama: "Siti Aminah", kelas: 12 },
@@ -77,8 +80,6 @@ const kelompokData = {
     { nama: "Rahmawati", kelas: 12 },
   ],
   "Kelompok 6": [
-    { nama: "Putri Elisa", kelas: 11 },
-    { nama: "Naysila Indriyani", kelas: 11 },
     { nama: "Siti Silva", kelas: 12 },
     { nama: "Lila Septiani", kelas: 12 },
     { nama: "Satria Pancasona", kelas: 12 },
@@ -88,6 +89,7 @@ const kelompokData = {
     { nama: "Muhammad Juanda", kelas: 12 },
     { nama: "Sandi Safutra", kelas: 12 },
     { nama: "Fahri Padilah", kelas: 12 },
+    { nama: "Reni Andyani", kelas: 12 },
   ],
 };
 
