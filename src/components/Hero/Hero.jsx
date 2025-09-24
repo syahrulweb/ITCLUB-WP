@@ -24,8 +24,8 @@ function Hero({ title, subtitle }) {
         <div className={styles.hero__right}>
           <img
             className={styles.hero__image}
-            src={import.meta.env.BASE_URL + "images/gedung.png"}
-            alt="Ilustrasi belajar"
+            src={import.meta.env.BASE_URL + "images/gedung.webp"}
+            alt="Gedung Sekolah"
           />
         </div>
       </section>
