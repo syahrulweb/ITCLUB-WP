@@ -1,8 +1,30 @@
 /* Container utama */
-
 .container {
   margin: 2rem 0;
   padding: 0 1rem;
+  text-align: center;
+}
+
+/* Judul */
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1a1a1a;
+  position: relative;
+  display: inline-block;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #d97706, #d97706);
 }
 
 /* Grid layout */

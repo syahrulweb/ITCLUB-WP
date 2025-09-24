@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Berita.module.css";
 
-
 const Berita = ({ beritaData }) => {
   return (
     <div className={styles.container}>
+      <h1 className={styles.title}>Galeri Sekolah</h1>
       <div className={styles.grid}>
         {beritaData.map((item) => (
           <div className={styles.card} key={item.id}>
