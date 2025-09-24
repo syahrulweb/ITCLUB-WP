@@ -21,8 +21,8 @@ function App() {
           <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </main>
-      <Footer />
       <ChatbotWidget />
+      <Footer />
     </div>
   );
 }
