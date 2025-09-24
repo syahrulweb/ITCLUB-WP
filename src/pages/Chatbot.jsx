@@ -105,6 +105,7 @@ export default function Chatbot() {
       display: "flex",
       alignItems: "center",
       gap: "8px",
+      marginBottom: "6px",
     },
     user: {
       alignSelf: "flex-end",

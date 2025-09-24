@@ -16,8 +16,8 @@ export default function ChatbotWidget() {
       gap: "12px",
     },
     panel: {
-      width: "320px",
-      height: "450px",
+      width: "360px",
+      height: "520px",
       borderRadius: "1rem",
       overflow: "hidden",
       boxShadow: "0 12px 28px rgba(0,0,0,0.25)",
