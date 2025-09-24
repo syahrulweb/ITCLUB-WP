@@ -5,6 +5,8 @@ import Modul from "./pages/Modul";
 import Absen from "./pages/Absen";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Chatbot from "./pages/Chatbot";
+import ChatbotWidget from "./components/ChatbotWidget";
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
           <Route path="/jadwal" element={<Jadwal />} />
           <Route path="/modul" element={<Modul />} />
           <Route path="/absen" element={<Absen />} />
+          <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </main>
       <Footer />
+      <ChatbotWidget />
     </div>
   );
 }
