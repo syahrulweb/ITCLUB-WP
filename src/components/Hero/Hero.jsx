@@ -17,7 +17,7 @@ function Hero({ title, subtitle }) {
         {/* Hero Text */}
         <div className={styles.hero__left}>
           <p className={styles.hero__genre}>Selamat Datang di</p>
-          <h2 className={styles.hero__title}>{title || "AR-RUM TECH LAB"}</h2>
+          <h2 className={styles.hero__title}>{title || "IT CLUB WP"}</h2>
           <p className={styles.hero__description}>
             {subtitle ||
               "Tempat belajar teknologi & komputer terbaik. Akses jadwal, modul, dan materi pembelajaran dengan mudah, cepat, dan praktis untuk mendukung kegiatan belajar di mana saja."}
