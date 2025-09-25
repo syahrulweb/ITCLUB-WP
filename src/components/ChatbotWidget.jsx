@@ -17,13 +17,11 @@ export default function ChatbotWidget() {
     },
     panel: {
       width: "360px",
-      height: "520px",
+      height: open ? "520px" : "0px", // animasi height
       borderRadius: "1rem",
       overflow: "hidden",
       boxShadow: "0 12px 28px rgba(0,0,0,0.25)",
-      transform: open ? "scaleY(1)" : "scaleY(0)",
-      transformOrigin: "bottom",
-      transition: "transform 0.3s ease",
+      transition: "height 0.3s ease",
     },
     toggleBtn: {
       width: "60px",
@@ -49,7 +47,9 @@ export default function ChatbotWidget() {
 
   return (
     <div style={styles.container}>
-      <div style={styles.panel}>{open && <Chatbot />}</div>
+      <div style={styles.panel}>
+        {open && <Chatbot />} {/* render cuma pas open */}
+      </div>
       <button
         style={styles.toggleBtn}
         onClick={() => setOpen(!open)}
