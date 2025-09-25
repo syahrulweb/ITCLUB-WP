@@ -18,21 +18,21 @@ const berita = [
     judul: "Hasil Ujian Tengah Semester",
     deskripsi:
       "Pengumuman hasil UTS sudah diumumkan. Cek hasil ujian kalian melalui website sekolah.",
-    gambar: import.meta.env.BASE_URL + "images/kelas.webp",
+    gambar: import.meta.env.BASE_URL + "images/lab2.webp",
   },
   {
     id: 4,
     judul: "Pertandingan Futsal",
     deskripsi:
       "Saksikan pertandingan futsal antar kelas yang seru minggu ini.",
-    gambar: import.meta.env.BASE_URL + "images/fut.webp",
+    gambar: import.meta.env.BASE_URL + "images/lab.webp",
   },
   {
     id: 5,
     judul: "Pelajaran Tambahan",
     deskripsi:
       "Jadwal pelajaran tambahan untuk persiapan ujian akhir sudah tersedia.",
-    gambar: import.meta.env.BASE_URL + "images/pel2.webp",
+    gambar: import.meta.env.BASE_URL + "images/lab1.webp",
   },
   {
     id: 6,
