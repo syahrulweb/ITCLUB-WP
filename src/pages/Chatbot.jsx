@@ -34,6 +34,7 @@ export default function Chatbot() {
         }
       );
       const data = await res.json();
+
       setMessages((prev) => [
         ...prev,
         {
@@ -71,8 +72,8 @@ export default function Chatbot() {
     header: {
       display: "flex",
       alignItems: "center",
-      gap: "10px",
       justifyContent: "center",
+      gap: "10px",
       background: "linear-gradient(135deg, #1e3a8a, #0f172a)",
       color: "#fff",
       padding: "14px",
@@ -80,12 +81,6 @@ export default function Chatbot() {
       fontSize: "1.25rem",
       boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
     },
-    // headerImage: {
-    //   width: "32px",
-    //   height: "32px",
-    //   borderRadius: "50%",
-    //   background: "#ffffffff",
-    // },
     chatBox: {
       flex: 1,
       overflowY: "auto",
@@ -130,7 +125,7 @@ export default function Chatbot() {
       gap: "8px",
       padding: "12px",
       borderTop: "1px solid #ddd",
-      background: "#ffffffff",
+      background: "#fff",
     },
     input: {
       flex: 1,
@@ -155,10 +150,8 @@ export default function Chatbot() {
 
   return (
     <div style={styles.container}>
-      <div style={styles.header}>
-        {/* <img src={import.meta.env.BASE_URL + "images/bot.png"} alt="bot" style={styles.headerImage} /> */}
-        <span>YuyAI</span>
-      </div>
+      <div style={styles.header}>YuyAI</div>
+
       <div style={styles.chatBox}>
         {messages.map((msg, i) => (
           <div
@@ -171,11 +164,12 @@ export default function Chatbot() {
             {msg.sender === "bot" && msg.image && (
               <img src={msg.image} alt="bot" style={styles.botImage} />
             )}
-            <span>{msg.text}</span>
+            <div style={{ whiteSpace: "pre-wrap" }}>{msg.text}</div>
           </div>
         ))}
         <div ref={chatEndRef} />
       </div>
+
       <div style={styles.inputBox}>
         <input
           style={styles.input}

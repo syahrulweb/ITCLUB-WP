@@ -17,7 +17,7 @@ export default function ChatbotWidget() {
     },
     panel: {
       width: "360px",
-      height: open ? "520px" : "0px", // animasi height
+      height: open ? "520px" : "0px",
       borderRadius: "1rem",
       overflow: "hidden",
       boxShadow: "0 12px 28px rgba(0,0,0,0.25)",
@@ -27,14 +27,13 @@ export default function ChatbotWidget() {
       width: "60px",
       height: "60px",
       borderRadius: "50%",
-      background: "#071780ff",
+      background: "#0d0056ff",
       border: "none",
       cursor: "pointer",
       boxShadow: "0 6px 20px rgba(0,0,0,0.3)",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      overflow: "hidden",
       transition: "transform 0.2s ease",
     },
     toggleImg: {
@@ -48,7 +47,7 @@ export default function ChatbotWidget() {
   return (
     <div style={styles.container}>
       <div style={styles.panel}>
-        {open && <Chatbot />} {/* render cuma pas open */}
+        {open && <Chatbot />}
       </div>
       <button
         style={styles.toggleBtn}
