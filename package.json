@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://syahrulweb.github.io/Komputer-arrum/",
+  "homepage": "https://syahrulweb.github.io/ITCLUB-WP/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
