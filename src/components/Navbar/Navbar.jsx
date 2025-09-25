@@ -15,7 +15,7 @@ function Navbar() {
       <div className={styles.navbarContainer}>
         {/* Brand / Logo */}
         <div className={styles.brand}>
-          <Link to="/">Komputer Ar-rum</Link>
+          <Link to="/">AR-RUM TECH LAB</Link>
         </div>
 
         {/* Burger Icon */}

@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <p>© {year} Komputer Ar-rum | By Muhammad Syahrul</p>
+      <p>© {year} AR-RUM TECH LAB | By Muhammad Syahrul</p>
     </footer>
   );
 }
