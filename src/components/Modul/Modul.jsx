@@ -5,12 +5,12 @@ import styles from "./Modul.module.css";
 const modules = [
   {
     title: "01 - Intro Pembelajaran Belajar Komputer ",
-    // file: import.meta.env.BASE_URL + "/pdfs/Intro.pdf",
+    file: import.meta.env.BASE_URL + "/pdfs/Intro.pdf",
     image: import.meta.env.BASE_URL + "images/intro.webp",
   },
   {
     title: "01 - Pengenalan Komputer & Manajemen File",
-    // file: import.meta.env.BASE_URL +"/pdfs/01_Fondasi_Komputer.pdf",
+    file: import.meta.env.BASE_URL +"/pdfs/01_Fondasi_Komputer.pdf",
     image: import.meta.env.BASE_URL + "images/per1.webp",
   },
   {
