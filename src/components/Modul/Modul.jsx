@@ -15,7 +15,7 @@ const modules = [
   },
   {
     title: "02 - Pengenalan Keyboard, Mouse dan Latihan Mengetik",
-    // file: import.meta.env.BASE_URL +"/pdfs/02_Fondasi_Komputer.pdf",
+    file: import.meta.env.BASE_URL +"/pdfs/02_Keyboarddanmouse.pdf",
     image: import.meta.env.BASE_URL + "/images/per2.webp",
   },
   {
