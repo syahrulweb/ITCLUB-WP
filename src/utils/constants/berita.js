@@ -39,7 +39,7 @@ const berita = [
     judul: "Upacara Hari Senin",
     deskripsi:
       "Upacara bendera diikuti oleh seluruh siswa dengan khidmat.",
-    gambar: import.meta.env.BASE_URL + "images/Upacara.webp",
+    gambar: import.meta.env.BASE_URL + "images/pekan222.webp",
   },
   {
     id: 7,
@@ -52,7 +52,7 @@ const berita = [
     id: 8,
     judul: "Gambar 8",
     deskripsi:
-      "Pelantikan pengurus OSIS baru telah dilaksanakan dengan sukses.",
+      "kursus.",
     gambar: import.meta.env.BASE_URL + "images/pass.webp",
   },
 ];

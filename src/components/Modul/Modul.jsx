@@ -19,8 +19,8 @@ const modules = [
     image: import.meta.env.BASE_URL + "/images/per2.webp",
   },
   {
-    title: "03 - Sistem Operasi Windows",
-    // file: "#",
+    title: "03 - Sistem Operasi (Windows 10/11)",
+    file: import.meta.env.BASE_URL +"/pdfs/pertemuan3-Sistem-Operasi-Dan-Windows-Explorer.pdf",
     image: import.meta.env.BASE_URL + "/images/per3.webp",
   },
   {
@@ -64,3 +64,5 @@ export default function Modul() {
     </div>
   );
 }
+
+
