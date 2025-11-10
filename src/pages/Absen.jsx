@@ -2,24 +2,31 @@
 import React, { useEffect, useState } from "react";
 
 function Absen() {
-  const GOOGLE_FORM_URL =
+  const GOOGLE_FORM_ABSEN_URL =
     "https://docs.google.com/forms/d/e/1FAIpQLSd7QUulVu2GRkVCsZvCnhdvFMTXxZEKML6gQX9aHqTPEWe6Bw/viewform";
 
   const GOOGLE_SHEET_KAS_URL =
     "https://docs.google.com/spreadsheets/d/1bs0vVV26OgOcnSj1vZY6eA1UnR-obGr0LEgg062dppM/edit?gid=0#gid=0";
 
+  const GOOGLE_FORM_TUGAS_URL = "https://forms.gle/bW155iyaPMpJAJGY9";
+
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setFadeIn(true), 100);
+  }, []);
+
   const handleAbsen = () => {
-    window.open(GOOGLE_FORM_URL, "_blank");
+    window.open(GOOGLE_FORM_ABSEN_URL, "_blank");
   };
 
   const handleKas = () => {
     window.open(GOOGLE_SHEET_KAS_URL, "_blank");
   };
 
-  const [fadeIn, setFadeIn] = useState(false);
-  useEffect(() => {
-    setTimeout(() => setFadeIn(true), 100);
-  }, []);
+  const handleUploadTugas = () => {
+    window.open(GOOGLE_FORM_TUGAS_URL, "_blank");
+  };
 
   const styles = {
     page: {
@@ -78,6 +85,9 @@ function Absen() {
     kasBtn: {
       background: "linear-gradient(135deg, #059669, #047857)",
     },
+    tugasBtn: {
+      background: "linear-gradient(135deg, #9333ea, #7e22ce)",
+    },
   };
 
   return (
@@ -99,7 +109,8 @@ function Absen() {
       <div style={styles.card}>
         <h1 style={styles.title}>✨ Absensi Peserta ✨</h1>
         <p style={styles.description}>
-          Silakan klik tombol di bawah untuk melakukan absensi atau melihat data pembayaran kas.
+          Silakan klik tombol di bawah untuk melakukan absensi, melihat data kas,
+          atau mengunggah tugasmu.
         </p>
 
         <div style={styles.buttonContainer}>
@@ -115,6 +126,13 @@ function Absen() {
             onClick={handleKas}
           >
             💰 Lihat Pembayaran Kas
+          </button>
+
+          <button
+            style={{ ...styles.button, ...styles.tugasBtn }}
+            onClick={handleUploadTugas}
+          >
+            📂 Upload Tugas
           </button>
         </div>
       </div>

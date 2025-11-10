@@ -66,7 +66,7 @@ function Navbar() {
               }
               onClick={() => setIsOpen(false)}
             >
-              Absen
+              Manajemen Kegiatan
             </NavLink>
           </li>
         </ul>

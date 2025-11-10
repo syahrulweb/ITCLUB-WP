@@ -25,13 +25,18 @@ const modules = [
   },
   {
     title: "04 - Internet basics (browser, searching Google)",
-    // file: "#",
+    file: import.meta.env.BASE_URL +"/pdfs/pertemuan4-browsing-searching-dan-download.pdf",
     image: import.meta.env.BASE_URL + "/images/per4.webp",
   },
   {
     title: "05 - Email dasar (buat akun Gmail, kirim pesan sederhana)",
-    // file: "#",
+    file: import.meta.env.BASE_URL +"/pdfs/pertemuan5-Gmail-dasar.pdf",
     image: import.meta.env.BASE_URL + "/images/per5.webp",
+  },
+  {
+    title: "05 - Microsoft Word dasar",
+    file: import.meta.env.BASE_URL +"/pdfs/pertemuan5-MsWord.pdf",
+    image: import.meta.env.BASE_URL + "/images/per55.webp",
   },
 ];
 
