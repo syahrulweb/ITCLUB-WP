@@ -35,7 +35,7 @@ const modules = [
   },
   {
     title: "05 - Microsoft Word dasar",
-    file: import.meta.env.BASE_URL +"/pdfs/Pertemuan5-MsWord.pdf",
+    file: import.meta.env.BASE_URL +"/pdfs/pertemuan5-MsWord.pdf",
     image: import.meta.env.BASE_URL + "/images/per55.webp",
   },
 ];
