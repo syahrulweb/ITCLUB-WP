@@ -2,7 +2,7 @@
 import React from "react";
 
 const jadwalData = [
-  { kelompok: "Kelompok 1", hari: "Selasaa", waktu: "12.40 – 13.25", sesi: 1 },
+  { kelompok: "Kelompok 1", hari: "Selasaaa", waktu: "12.40 – 13.25", sesi: 1 },
   { kelompok: "Kelompok 2", hari: "Selasa", waktu: "13.25 – 14.10", sesi: 2 },
   { kelompok: "Kelompok 3", hari: "Selasa", waktu: "14.10 – 14.55", sesi: 3 },
   { kelompok: "Kelompok 4", hari: "Kamis", waktu: "12.40 – 13.25", sesi: 1 },
